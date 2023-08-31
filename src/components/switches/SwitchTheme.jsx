@@ -10,20 +10,19 @@ const SwitchTheme = () => {
   return (
     <div className="cursor-pointer">
       <Switch
-        defaultSelected
-        size="lg"
-        color="secondary"
-        onClick={() =>
-          currentTheme == "light" ? setTheme("dark") : setTheme("light")
-        }
-        thumbIcon={({ isSelected, className }) =>
-          isSelected ? (
-            <FaSun className={className} />
+      size="lg"
+      color="secondary"
+      onClick={() =>
+        currentTheme == "light" ? setTheme("dark") : setTheme("light")
+      }
+      thumbIcon={({ isSelected }) =>
+        isSelected ? (
+          <FaMoon className="text-2xl dark: text-white"/>
           ) : (
-            <FaMoon className="dark: text-white" />
-          )
-        }
-      ></Switch>
+            <FaSun className='text-2xl' />
+        )
+      }
+    ></Switch>
     </div>
   );
 };

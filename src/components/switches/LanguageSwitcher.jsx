@@ -12,7 +12,7 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <button onClick={toggleLanguage} className='font-semibold dark:text-white'>
+    <button onClick={toggleLanguage} className='font-semibold text-2xl dark:text-white'>
       {language === 'en' ? 'EN' : 'ES'}
     </button>
   );
