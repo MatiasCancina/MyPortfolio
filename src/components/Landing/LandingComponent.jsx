@@ -5,7 +5,7 @@ import LinkBtn from "./linkBtn.jsx/LinkBtn";
 
 const LandingComponent = () => {
   return (
-    <div className="flex flex-col items-center min-h-[1000px] justify-center">
+    <div className="flex flex-col items-center min-h-[950px] justify-center">
       <div className="flex absolute top-20 items-center gap-10">
         <SwitchTheme />
         <LanguageSwitcher />
