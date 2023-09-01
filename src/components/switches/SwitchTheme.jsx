@@ -11,17 +11,12 @@ const SwitchTheme = () => {
     <div className="cursor-pointer">
       <Switch
       size="lg"
-      color="secondary"
+      color="primary"
       onClick={() =>
         currentTheme == "light" ? setTheme("dark") : setTheme("light")
       }
-      thumbIcon={({ isSelected }) =>
-        isSelected ? (
-          <FaMoon className="text-2xl dark: text-white"/>
-          ) : (
-            <FaSun className='text-2xl' />
-        )
-      }
+      startContent={<FaMoon />}
+      endContent={<FaSun />}
     ></Switch>
     </div>
   );
