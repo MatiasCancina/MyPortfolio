@@ -12,18 +12,18 @@ const SocialsComponent = () => {
       <div className="flex flex-col justify-center bg-gray-400 rounded-3xl p-8">
         <div className="flex justify-center items-center">
           <a href="mailto:cancinamatias@gmail.com">
-          <FiMail className="text-7xl cursor-pointer" />
+            <FiMail className="hover:scale-110 duration-100 text-7xl cursor-pointer" />
           </a>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center bg-gray-400 rounded-3xl p-8">
         <a href="https://www.linkedin.com/in/matiascancina/" target="_blank">
-        <FaLinkedin className="text-7xl cursor-pointer" />
+          <FaLinkedin className="hover:scale-110 duration-100 text-7xl cursor-pointer" />
         </a>
       </div>
       <div className="flex flex-col justify-center items-center bg-gray-400 rounded-3xl p-8">
         <a href="https://github.com/MatiasCancina" target="_blank">
-        <BsGithub className="text-9xl cursor-pointer" />
+          <BsGithub className="hover:scale-110 duration-100 text-9xl cursor-pointer" />
         </a>
       </div>
       <div className="flex justify-center items-center bg-gray-400 rounded-3xl">
