@@ -4,6 +4,7 @@ import DataComponentES from "@/components/Data/DataComponentES";
 import FooterComponent from "@/components/Footer/FooterComponent";
 import LandingComponent from "@/components/Landing/LandingComponent";
 import LandingComponentES from "@/components/Landing/LandingComponentES";
+import FormContainer from "@/components/emailForm/FormComponent";
 import { useSelector } from "react-redux";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
             <DataComponentES />
           </>
         )}
+      {/* <FormContainer/> */}
       </div>
       <FooterComponent />
     </main>

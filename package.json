@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@nextui-org/react": "^2.1.7",
     "autoprefixer": "10.4.15",
     "framer-motion": "^10.16.2",
