@@ -16,6 +16,19 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      blue100:'#A9D6E5',
+      blue200:'#89C2D9',
+      blue300:'#61A5C2',
+      blue400:'#468FAF',
+      blue500:'#2C7DA0',
+      blue600:'#2A6F97',
+      blue700:'#014F86',
+      blue800:'#01497C',
+      blue900:'#013A63',
+      blue1000:'#012A4A',
+      gray100: '#f8f7ff'
+    },
         screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

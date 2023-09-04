@@ -18,17 +18,17 @@ const ProyectsComponent = ({
     <div className="flex justify-center items-center">
       <div className="w-1/2 p-4">
         <div className="flex justify-between items-center ">
-          <div className="m-2 text-lg font-extrabold">{name}</div>
+          <div className="m-2 text-lg font-extrabold dark:text-gray100">{name}</div>
           {language === "en" ? (
-            <div className="m-2 text-sm font-light">{date}</div>
+            <div className="m-2 text-sm font-light dark:text-gray100">{date}</div>
           ) : (
-            <div className="m-2">{fecha}</div>
+            <div className="m-2 dark:text-gray100">{fecha}</div>
           )}
         </div>
         {language === "en" ? (
-          <div className="m-2">{description}</div>
+          <div className="m-2 dark:text-gray100">{description}</div>
         ) : (
-          <div className="m-2">{descripcion}</div>
+          <div className="m-2 dark:text-gray100">{descripcion}</div>
         )}
       </div>
       <div className="w-1/2 flex flex-col justify-center items-center p-4">

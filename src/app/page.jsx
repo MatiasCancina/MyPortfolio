@@ -4,15 +4,15 @@ import DataComponentES from "@/components/Data/DataComponentES";
 import FooterComponent from "@/components/Footer/FooterComponent";
 import LandingComponent from "@/components/Landing/LandingComponent";
 import LandingComponentES from "@/components/Landing/LandingComponentES";
-import FormContainer from "@/components/emailForm/FormComponent";
 import { useSelector } from "react-redux";
+// import Photo3D from "../utils/images/photo3d2.jpg";
 
 export default function Home() {
   const language = useSelector((state) => state.language);
 
   return (
     <main>
-      <div className="flex min-h-screen relative items-center justify-center  bg-yellow-100 dark:bg-slate-700 flex-col p-24">
+      <div className={`flex min-h-screen relative items-center justify-center bg-[url('../utils/images/photo3d2.jpg')] dark:bg-blue1000 flex-col p-24 bg-no-repeat bg-cover transition-all ease-in-out duration-500`}>
         {language === "en" ? (
           <>
             <LandingComponent />
@@ -24,7 +24,6 @@ export default function Home() {
             <DataComponentES />
           </>
         )}
-      {/* <FormContainer/> */}
       </div>
       <FooterComponent />
     </main>

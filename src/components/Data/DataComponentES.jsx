@@ -9,12 +9,12 @@ const DataComponentES = () => {
   return (
     <div
       id="data"
-      className="grid rounded-3xl xl:max-w-[900px] 2xl:max-w-[1089px] bg-sky-500/30 p-8 grid-cols-4 gap-4"
+      className="grid rounded-3xl xl:max-w-[900px] 2xl:max-w-[1089px] bg-blue200/40 dark:bg-blue1000/40 p-8 grid-cols-4 gap-6"
     >
       <ProfilePhotoComponent />
       <AboutMeComponentES />
-      <TechsComponent />
       <SocialsComponent />
+      <TechsComponent />
       <ContainerProyects />
     </div>
   );

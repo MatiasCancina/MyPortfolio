@@ -53,20 +53,16 @@ const ContainerProyects = () => {
   };
 
   return (
-    <div className=" flex place-items-center bg-gray-400 rounded-3xl col-span-4 row-span-4 max-h-[330px] p-6">
-      <button
+    <div className="flex place-items-center bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 row-span-4 max-h-[330px] p-6">
+      <IoIosArrowBack
+        className="hover:scale-125 duration-100 text-9xl cursor-pointer dark:text-gray100"
         onClick={onClickPrev}
-        className="hover:scale-125 duration-100 text-5xl"
-      >
-        <IoIosArrowBack />
-      </button>
+      />
       {proyect[position]}
-      <button
+      <IoIosArrowForward
         onClick={onClickNext}
-        className="hover:scale-125 duration-100 text-5xl"
-      >
-        <IoIosArrowForward />
-      </button>
+        className="hover:scale-125 duration-100 text-9xl cursor-pointer dark:text-gray100"
+      />
     </div>
   );
 };
