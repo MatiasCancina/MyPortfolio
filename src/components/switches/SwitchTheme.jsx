@@ -8,7 +8,7 @@ const SwitchTheme = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
-    <div className="cursor-pointer">
+    <div className="lg:w-12 xl:w-16 2xl:w-20 cursor-pointer">
       <Switch
       size="lg"
       color="primary"

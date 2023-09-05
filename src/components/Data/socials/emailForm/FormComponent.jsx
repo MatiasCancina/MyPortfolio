@@ -19,7 +19,7 @@ function FormContainer() {
 
   if (state.succeeded) {
     return (
-      <p>
+      <p className="text-black dark:text-gray100">
         {language === "en"
           ? "Email has been sent, thanks for contact me!"
           : "¡Correo enviado, gracias por contactarme!"}
