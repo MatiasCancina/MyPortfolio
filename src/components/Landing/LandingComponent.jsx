@@ -10,12 +10,17 @@ const LandingComponent = () => {
         <SwitchTheme />
         <LanguageSwitcher />
       </div>
-      <h1 className="text-6xl font-semibold dark:text-white">
-        Hi! I´m Matías Cancina
-        <span className="text-8xl text-sky-500">.</span>
-      </h1>
-      
-      <LinkBtn/>
+      <div className="flex flex-col items-center justify-center">
+        <>
+          <h1 className="text-6xl font-bold text-gray100 dark:text-black">
+            Hi! I´m Matías Cancina
+            <span className="text-8xl text-blue100 dark:text-blue1000">.</span>
+          </h1>
+        </>
+        <span className="text-xl font-black mt-4 text-blue100 dark:text-blue1000">Full Stack Developer</span>
+      </div>
+
+      <LinkBtn />
     </div>
   );
 };

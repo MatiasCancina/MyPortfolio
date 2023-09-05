@@ -9,7 +9,7 @@ const ContainerProyects = () => {
   const proyect = [
     <ProyectsComponent
       name={"PigCommander Finanance App"}
-      tecnologies={["NextJS", "React", "Redux Toolkit", "NodeJs"]}
+      tecnologies={["NextJS", "TailwindCSS", "Redux", "PostgreSQL", "Express"]}
       image={pigCphoto}
       description={
         "Development of a personal finance application that allows users to record their monthly income and expenses, automate expenses, record investments, set savings goals, view news and much more. In particular, my responsibilities included implementing user authentication and authorization, as well as automating and managing transactions and global state."
@@ -23,7 +23,7 @@ const ContainerProyects = () => {
 
     <ProyectsComponent
       name={"Dogs Api"}
-      tecnologies={["JavaScript", "React", "Module CSS"]}
+      tecnologies={["React", "Redux", "Express", "PostgreSQL", "CSS"]}
       image={dogsPhoto}
       description={
         "Development of a complete a Single Page Application SPA for dog management that allows users to manage and keep track of their faithful canine companions in a simple way. This application enables the creation, editing, and deletion of dog profiles, as well as powerful search and filtering capabilities, intuitive sorting options, all while maintaining a global state with Redux."

@@ -42,7 +42,7 @@ const ProyectsComponent = ({
         />
         <div className="flex mt-6">
           {tecnologies.map((t) => (
-            <Chip color="primary" variant="flat" className="m-2" key={t}>
+            <Chip color="primary" variant="shadow" className="m-2" key={t}>
               {t}
             </Chip>
           ))}

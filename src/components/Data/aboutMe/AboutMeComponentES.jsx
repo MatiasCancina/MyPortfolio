@@ -8,8 +8,7 @@ const AboutMeComponentES = () => {
         Un desarrollador argentino que esta constantemente involucrado en el
         estudio, aprendiendo nuevas tecnologías y mejorando las que ya
         conoce, ayudando y/o enseñando con el conocimiento que poseo.
-        Creo que lo mejor de este campo es su constante evolución; siempre
-        hay algo más por aprender.
+        Siempre hay algo más por aprender.
       </p>
     </div>
   );

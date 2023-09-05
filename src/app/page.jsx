@@ -5,14 +5,13 @@ import FooterComponent from "@/components/Footer/FooterComponent";
 import LandingComponent from "@/components/Landing/LandingComponent";
 import LandingComponentES from "@/components/Landing/LandingComponentES";
 import { useSelector } from "react-redux";
-// import Photo3D from "../utils/images/photo3d2.jpg";
 
 export default function Home() {
   const language = useSelector((state) => state.language);
 
   return (
     <main>
-      <div className={`flex min-h-screen relative items-center justify-center bg-[url('../utils/images/photo3d2.jpg')] dark:bg-blue1000 flex-col p-24 bg-no-repeat bg-cover transition-all ease-in-out duration-500`}>
+      <div className={`flex min-h-screen relative items-center justify-center bg-[url('../utils/images/photo3dlight1.jpg')] dark:bg-[url('../utils/images/photo3ddark1.jpg')] flex-col p-24 bg-no-repeat bg-cover transition-all ease-in-out duration-500`}>
         {language === "en" ? (
           <>
             <LandingComponent />
