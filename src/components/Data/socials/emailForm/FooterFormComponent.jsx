@@ -1,4 +1,7 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import { useForm, ValidationError } from "@formspree/react";
+import { FiMail } from "react-icons/fi";
 import {
   Modal,
   ModalContent,
@@ -8,11 +11,8 @@ import {
   Button,
   useDisclosure,
 } from "@nextui-org/react";
-import { useForm, ValidationError } from "@formspree/react";
-import { FiMail } from "react-icons/fi";
-import { useSelector } from "react-redux";
 
-function FormContainer() {
+const FooterFormComponent = () => {
   const [state, handleSubmit] = useForm("mnqkvvwe");
   const language = useSelector((state) => state.language);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -29,13 +29,8 @@ function FormContainer() {
 
   return (
     <>
-      <Button onPress={onOpen} className=" bg-blue400 dark:bg-blue600">
-        {language === "en" ? (
-          <p className="text-xl ">Contact Me</p>
-        ) : (
-          <p className="text-xl ">Contáctame</p>
-        )}
-        <FiMail className="text-9xl cursor-pointer" />
+      <Button onPress={onOpen} className="flex items-center justify-center hover:bg-blue1000/10 dark:hover:bg-blue100/10 bg-blue100 dark:bg-blue1000">
+        <FiMail className=" text-xl lg:text-9xl cursor-pointer" />
       </Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} className="bg-gray100">
         <ModalContent>
@@ -122,6 +117,6 @@ function FormContainer() {
       </Modal>
     </>
   );
-}
+};
 
-export default FormContainer;
+export default FooterFormComponent;

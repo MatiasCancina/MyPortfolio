@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
-import FormContainer from "@/components/Data/socials/emailForm/FormComponent";
+import FormContainer from "@/components/Data/socials/emailForm/DataFormComponent";
 
 const SocialsComponent = () => {
   return (

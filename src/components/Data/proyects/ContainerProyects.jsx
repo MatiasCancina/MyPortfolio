@@ -9,7 +9,7 @@ const ContainerProyects = () => {
   const proyect = [
     <ProyectsComponent
       name={"Pig Commander"}
-      tecnologies={["NextJS", "TailwindCSS", "Redux", "PostgreSQL", "Express"]}
+      tecnologies={["NextJS", "Tailwind", "Redux", "PostgreSQL", "Express"]}
       image={pigCphoto}
       description={
         "Development of a personal finance application that allows users to record their monthly income and expenses, automate expenses, record investments, set savings goals, view news and much more. In particular, my responsibilities included implementing user authentication and authorization, as well as automating and managing transactions and global state."

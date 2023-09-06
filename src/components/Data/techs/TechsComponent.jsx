@@ -14,13 +14,13 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { FaJava } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { Tooltip } from "@nextui-org/react";
-import { FiArrowUpRight  } from "react-icons/fi";
-
+import { FiArrowUpRight } from "react-icons/fi";
 
 const TechsComponent = () => {
   return (
     <div className="grid grid-cols-4 col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 place-items-center rounded-3xl p-6 bg-blue300 dark:bg-blue800">
       <Tooltip
+        showArrow
         content={
           <div className="flex justify-center items-center">
             <p>JavaScript</p>
@@ -36,7 +36,16 @@ const TechsComponent = () => {
           <RiJavascriptFill className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="HTML5" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>HTML5</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a
           href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
           target="_blank"
@@ -44,7 +53,16 @@ const TechsComponent = () => {
           <SiHtml5 className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="CSS" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>CSS</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/CSS"
           target="_blank"
@@ -52,7 +70,16 @@ const TechsComponent = () => {
           <SiCss3 className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="React" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>React</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a
           href="https://legacy.reactjs.org/docs/getting-started.html"
           target="_blank"
@@ -60,42 +87,114 @@ const TechsComponent = () => {
           <FaReact className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100 " />
         </a>
       </Tooltip>
-      <Tooltip content="Redux" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>Redux</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://es.redux.js.org/" target="_blank">
           <SiRedux className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="NextJS" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>NextJS</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://nextjs.org/docs" target="_blank">
           <SiNextdotjs className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="Tailwind" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>Tailwind</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://v2.tailwindcss.com/docs" target="_blank">
           <SiTailwindcss className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="ExpressJS" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>ExpressJS</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://expressjs.com/es/" target="_blank">
           <SiExpress className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="NodeJS" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>NodeJS</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://nodejs.org/en/docs" target="_blank">
           <GrNode className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="Java" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>Java</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://docs.oracle.com/en/java/" target="_blank">
           <FaJava className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="PostgreSQL" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>PostgreSQL</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://www.postgresql.org/docs/" target="_blank">
           <BiLogoPostgresql className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
-      <Tooltip content="MySQL" color="primary">
+      <Tooltip
+        showArrow
+        content={
+          <div className="flex justify-center items-center">
+            <p>MySQL</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a href="https://dev.mysql.com/doc/" target="_blank">
           <SiMysql className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
         </a>
