@@ -42,13 +42,29 @@ function FormContainer() {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                <p className="text-blue500">{language === "en" ? "Contact Me!" : "¡Contactame!"}</p>
+                <p className="text-blue500">
+                  {language === "en" ? "Contact Me!" : "¡Contactame!"}
+                </p>
               </ModalHeader>
               <ModalBody>
                 <form
                   onSubmit={handleSubmit}
-                  className="flex flex-col justify-center items-center"
+                  className="flex flex-col justify-center items-center space-y-3"
                 >
+                  <div className="relative w-full inline-flex tap-highlight-transparent shadow-sm px-3 border-medium border-default-200 data-[hover=true]:border-default-400 group-data-[focus=true]:border-foreground min-h-unit-10 rounded-medium flex-col items-start justify-center gap-0 transition-background !duration-150 transition-colors motion-reduce:transition-none h-14 py-2">
+                    <label
+                      htmlFor="name"
+                      className="block font-medium text-tiny cursor-text will-change-auto origin-top-left transition-all !duration-200 !ease-out motion-reduce:transition-none text-blue500"
+                    >
+                      {language === "en" ? "Name" : "Nombre"}
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      className="w-full h-full font-normal bg-gray100 !bg-transparent outline-none placeholder:text-foreground-500 text-small"
+                    />
+                  </div>
                   <div className="relative w-full inline-flex tap-highlight-transparent shadow-sm px-3 border-medium border-default-200 data-[hover=true]:border-default-400 group-data-[focus=true]:border-foreground min-h-unit-10 rounded-medium flex-col items-start justify-center gap-0 transition-background !duration-150 transition-colors motion-reduce:transition-none h-14 py-2">
                     <label
                       htmlFor="email"
@@ -69,9 +85,11 @@ function FormContainer() {
                     field="email"
                     errors={state.errors}
                   />
-                  <div className="relative my-3 w-full inline-flex tap-highlight-transparent shadow-sm px-3 border-medium border-default-200 data-[hover=true]:border-default-400 group-data-[focus=true]:border-foreground min-h-unit-10 rounded-medium flex-col items-start justify-center gap-0 !h-auto transition-background !duration-150 transition-colors motion-reduce:transition-none py-2">
+                  <div className="relative w-full inline-flex tap-highlight-transparent shadow-sm px-3 border-medium border-default-200 data-[hover=true]:border-default-400 group-data-[focus=true]:border-foreground min-h-unit-10 rounded-medium flex-col items-start justify-center gap-0 !h-auto transition-background !duration-150 transition-colors motion-reduce:transition-none py-2">
                     <label className="block font-medium text-foreground-600 text-tiny cursor-text will-change-auto origin-top-left transition-all !duration-200 !ease-out motion-reduce:transition-none">
-                      <p className="text-blue500">{language === "en" ? "Message" : "Mensaje"}</p>
+                      <p className="text-blue500">
+                        {language === "en" ? "Message" : "Mensaje"}
+                      </p>
                     </label>
                     <textarea
                       id="message"

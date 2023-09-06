@@ -14,11 +14,21 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { FaJava } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { Tooltip } from "@nextui-org/react";
+import { FiArrowUpRight  } from "react-icons/fi";
+
 
 const TechsComponent = () => {
   return (
-    <div className="grid grid-cols-4 col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 place-items-center gap-12 rounded-3xl p-6 bg-blue300 dark:bg-blue800">
-      <Tooltip content="JavaScript" color="primary">
+    <div className="grid grid-cols-4 col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 place-items-center rounded-3xl p-6 bg-blue300 dark:bg-blue800">
+      <Tooltip
+        content={
+          <div className="flex justify-center items-center">
+            <p>JavaScript</p>
+            <FiArrowUpRight />
+          </div>
+        }
+        color="primary"
+      >
         <a
           href="https://developer.mozilla.org/es/docs/Web/JavaScript"
           target="_blank"
