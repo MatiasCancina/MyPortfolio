@@ -17,7 +17,7 @@ import { Tooltip } from "@nextui-org/react";
 
 const TechsComponent = () => {
   return (
-    <div className="grid grid-cols-4 place-items-center bg-gray-400 rounded-3xl col-span-2 row-span-2 p-6 bg-blue300 dark:bg-blue800">
+    <div className="grid grid-cols-4 col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 place-items-center gap-12 rounded-3xl p-6 bg-blue300 dark:bg-blue800">
       <Tooltip content="JavaScript" color="primary">
         <a
           href="https://developer.mozilla.org/es/docs/Web/JavaScript"

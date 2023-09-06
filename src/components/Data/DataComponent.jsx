@@ -9,7 +9,7 @@ export const DataComponent = () => {
   return (
     <div
       id="data"
-      className="grid rounded-3xl xl:max-w-[900px] 2xl:max-w-[1089px] bg-blue100/60 dark:bg-blue1000/80 p-8 grid-cols-4 gap-6 "
+      className="grid rounded-3xl mx-4 lg:mx-72 bg-blue100/60 dark:bg-blue1000/80 p-2 md:p-8 grid-cols-1 lg:grid-cols-4 gap-1 lg:gap-6"
     >
       <ProfilePhotoComponent />
       <AboutMeComponent />

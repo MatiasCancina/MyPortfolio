@@ -8,7 +8,7 @@ const ContainerProyects = () => {
   let [position, setPosition] = useState(0);
   const proyect = [
     <ProyectsComponent
-      name={"PigCommander Finanance App"}
+      name={"Pig Commander"}
       tecnologies={["NextJS", "TailwindCSS", "Redux", "PostgreSQL", "Express"]}
       image={pigCphoto}
       description={
@@ -23,7 +23,7 @@ const ContainerProyects = () => {
 
     <ProyectsComponent
       name={"Dogs Api"}
-      tecnologies={["React", "Redux", "Express", "PostgreSQL", "CSS"]}
+      tecnologies={["React", "Redux", "Express", "PostgreSQL", "Module CSS"]}
       image={dogsPhoto}
       description={
         "Development of a complete a Single Page Application SPA for dog management that allows users to manage and keep track of their faithful canine companions in a simple way. This application enables the creation, editing, and deletion of dog profiles, as well as powerful search and filtering capabilities, intuitive sorting options, all while maintaining a global state with Redux."
@@ -53,15 +53,15 @@ const ContainerProyects = () => {
   };
 
   return (
-    <div className="flex place-items-center bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 row-span-4 max-h-[330px] p-6">
+    <div className="flex items-center justify-center lg:max-h-[330px] bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 row-span-4 p-6">
       <IoIosArrowBack
-        className="hover:scale-125 duration-100 text-9xl cursor-pointer dark:text-gray100"
+        className="hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
         onClick={onClickPrev}
       />
       {proyect[position]}
       <IoIosArrowForward
         onClick={onClickNext}
-        className="hover:scale-125 duration-100 text-9xl cursor-pointer dark:text-gray100"
+        className="hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
       />
     </div>
   );

@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const ProfilePhotoComponent = () => {
   return (
-    <div className="bg-blue300 dark:bg-blue800 rounded-3xl p-7">
+    <div className="col-span-1 p-4 w-56 bg-blue300 dark:bg-blue800 rounded-3xl">
       <Image
         className="rounded-full"
         src={profilePhoto}
-        width={200}
-        height={200}
+        width={300}
+        height={300}
         alt="Profile Photo"
       />
     </div>
