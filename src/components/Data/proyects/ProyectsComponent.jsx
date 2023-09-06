@@ -32,11 +32,11 @@ const ProyectsComponent = ({
           )}
         </div>
         {language === "en" ? (
-          <div className="my-1 2xl:m-3 text-xs w-full lg:text-lg  dark:text-gray100">
+          <div className="my-1 2xl:m-3 text-xs w-full lg:text-base  dark:text-gray100">
             {description}
           </div>
         ) : (
-          <div className="my-1 text-xs lg:text-lg dark:text-gray100">
+          <div className="my-1 text-xs lg:text-base dark:text-gray100">
             {descripcion}
           </div>
         )}
