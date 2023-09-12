@@ -18,7 +18,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const TechsComponent = () => {
   return (
-    <div className="grid grid-cols-4 col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 place-items-center rounded-3xl p-6 bg-blue300 dark:bg-blue800">
+    <div className="grid grid-cols-4 lg:col-span-2 lg:row-span-2 place-items-center gap-1 sm:gap-5 md:gap-6 rounded-3xl p-6 bg-gradient-to-b from-blue200 to-blue500 dark:from-blue800 dark:to-black">
       <Tooltip
         showArrow
         content={
@@ -33,7 +33,7 @@ const TechsComponent = () => {
           href="https://developer.mozilla.org/es/docs/Web/JavaScript"
           target="_blank"
         >
-          <RiJavascriptFill className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <RiJavascriptFill className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -50,7 +50,7 @@ const TechsComponent = () => {
           href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
           target="_blank"
         >
-          <SiHtml5 className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <SiHtml5 className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -67,7 +67,7 @@ const TechsComponent = () => {
           href="https://developer.mozilla.org/en-US/docs/Web/CSS"
           target="_blank"
         >
-          <SiCss3 className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <SiCss3 className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -84,7 +84,7 @@ const TechsComponent = () => {
           href="https://legacy.reactjs.org/docs/getting-started.html"
           target="_blank"
         >
-          <FaReact className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100 " />
+          <FaReact className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100 " />
         </a>
       </Tooltip>
       <Tooltip
@@ -98,7 +98,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://es.redux.js.org/" target="_blank">
-          <SiRedux className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <SiRedux className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -112,7 +112,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://nextjs.org/docs" target="_blank">
-          <SiNextdotjs className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <SiNextdotjs className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -126,7 +126,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://v2.tailwindcss.com/docs" target="_blank">
-          <SiTailwindcss className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <SiTailwindcss className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -140,7 +140,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://expressjs.com/es/" target="_blank">
-          <SiExpress className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <SiExpress className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -154,7 +154,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://nodejs.org/en/docs" target="_blank">
-          <GrNode className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <GrNode className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -168,7 +168,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://docs.oracle.com/en/java/" target="_blank">
-          <FaJava className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <FaJava className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -182,7 +182,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://www.postgresql.org/docs/" target="_blank">
-          <BiLogoPostgresql className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <BiLogoPostgresql className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
       <Tooltip
@@ -196,7 +196,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a href="https://dev.mysql.com/doc/" target="_blank">
-          <SiMysql className="hover:scale-125 duration-100 text-6xl cursor-pointer dark:text-gray100" />
+          <SiMysql className="hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer dark:text-gray100" />
         </a>
       </Tooltip>
     </div>

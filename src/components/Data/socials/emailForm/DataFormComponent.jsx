@@ -29,13 +29,13 @@ function DataFormContainer() {
 
   return (
     <>
-      <Button onPress={onOpen} className=" bg-blue400 dark:bg-blue600">
+      <Button onPress={onOpen} className="bg-blue500 dark:bg-blue800">
         {language === "en" ? (
-          <p className="text-xl ">Contact Me</p>
+          <p className="2xl:text-xl ">Contact Me</p>
         ) : (
-          <p className="text-xl ">Contáctame</p>
+          <p className="2xl:text-xl ">Contáctame</p>
         )}
-        <FiMail className="text-9xl cursor-pointer" />
+        <FiMail className="sm:text-2xl 2xl:text-9xl cursor-pointer" />
       </Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} className="bg-gray100">
         <ModalContent>

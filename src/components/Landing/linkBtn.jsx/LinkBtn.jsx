@@ -6,7 +6,7 @@ const LinkBtn = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-32 2xl:mt-72">
       <Link smooth={true} duration={800} to="data" className="mt-2 cursor-pointer">
-        <RiArrowDownCircleFill className="text-4xl xl:text-5xl 2xl:text-6xl text-gray100 dark:text-black animate-bounce" />
+        <RiArrowDownCircleFill className="text-4xl lg:text-5xl text-gray100 dark:text-black animate-bounce" />
       </Link>
     </div>
   );

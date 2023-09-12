@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const ProfilePhotoComponent = () => {
   return (
-    <div className="col-span-1 p-4 w-[340px] 2xl:w-60 bg-blue300 dark:bg-blue800 rounded-3xl">
-      <div className="hidden 2xl:block">
+    <div className="hidden col-span-1 p-4 xl:flex justify-center items-center w-full bg-blue300 dark:bg-blue800 rounded-3xl">
+      <div className="hidden xl:block">
         <Image
           className="rounded-full"
           src={profilePhoto}
@@ -14,7 +14,7 @@ const ProfilePhotoComponent = () => {
           alt="Profile Photo"
         />
       </div>
-      <div className="2xl:hidden flex justify-center items-center">
+      <div className="hidden ">
       <Image
           className="rounded-large"
           src={profilePhoto}
