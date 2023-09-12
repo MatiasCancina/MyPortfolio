@@ -29,8 +29,11 @@ const FooterFormComponent = () => {
 
   return (
     <>
-      <Button onPress={onOpen} className="flex items-center justify-center hover:bg-blue1000/10 dark:hover:bg-blue100/10 bg-blue100 dark:bg-blue1000">
-        <FiMail className=" text-xl lg:text-9xl cursor-pointer" />
+      <Button
+        onPress={onOpen}
+        className="flex items-center justify-center hover:bg-blue1000/10 dark:hover:bg-blue100/10 bg-blue100 dark:bg-blue1000"
+      >
+        <FiMail className="text-xl lg:text-9xl cursor-pointer" />
       </Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} className="bg-gray100">
         <ModalContent>

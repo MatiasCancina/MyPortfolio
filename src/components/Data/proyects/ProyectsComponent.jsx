@@ -18,7 +18,7 @@ const ProyectsComponent = ({
     <div className="flex flex-col lg:flex-row justify-center items-center w-full">
       <div className="lg:w-1/2 w-full flex-wrap">
         <div className="flex justify-between items-center ">
-          <div className="m-1 text-sm lg:text-lg font-extrabold dark:text-gray100">
+          <div className="m-1 text-sm sm:text-base lg:text-lg font-extrabold dark:text-gray100">
             {name}
           </div>
           {language === "en" ? (
@@ -32,11 +32,11 @@ const ProyectsComponent = ({
           )}
         </div>
         {language === "en" ? (
-          <div className="my-1 2xl:m-3 text-xs w-full lg:text-base  dark:text-gray100">
+          <div className="my-1 2xl:m-3 text-xs sm:text-sm xl:text-base w-full dark:text-gray100">
             {description}
           </div>
         ) : (
-          <div className="my-1 text-xs lg:text-base dark:text-gray100">
+          <div className="my-1 2xl:m-3 text-xs sm:text-sm xl:text-base w-full dark:text-gray100">
             {descripcion}
           </div>
         )}

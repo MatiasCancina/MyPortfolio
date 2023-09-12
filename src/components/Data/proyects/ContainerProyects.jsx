@@ -53,7 +53,7 @@ const ContainerProyects = () => {
   };
 
   return (
-    <div className="flex items-center justify-center max-h-[553px] lg:max-h-[320px] bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 row-span-4 p-6">
+    <div className="flex items-center justify-center  bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 row-span-4 p-6">
       <IoIosArrowBack
         className="hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
         onClick={onClickPrev}

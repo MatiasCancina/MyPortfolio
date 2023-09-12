@@ -31,9 +31,9 @@ function DataFormContainer() {
     <>
       <Button onPress={onOpen} className="bg-blue500 dark:bg-blue800">
         {language === "en" ? (
-          <p className="2xl:text-xl ">Contact Me</p>
+          <p className="lg:text-lg 2xl:text-xl font-medium">Contact Me</p>
         ) : (
-          <p className="2xl:text-xl ">Contáctame</p>
+          <p className="lg:text-lg 2xl:text-xl font-medium">Contáctame</p>
         )}
         <FiMail className="sm:text-2xl 2xl:text-9xl cursor-pointer" />
       </Button>
