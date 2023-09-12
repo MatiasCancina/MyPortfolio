@@ -18,7 +18,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const TechsComponent = () => {
   return (
-    <div className="grid grid-cols-4 lg:col-span-2 lg:row-span-2 place-items-center gap-1 sm:gap-5 md:gap-6 rounded-3xl p-6 bg-gradient-to-b from-blue200 to-blue500 dark:from-blue800 dark:to-black">
+    <div className="grid grid-cols-4 lg:col-span-2 lg:row-span-2 place-items-center gap-1 sm:gap-5 md:gap-6 rounded-3xl p-3 sm:p-6 bg-gradient-to-b from-blue200 to-blue500 dark:from-blue800 dark:to-black">
       <Tooltip
         showArrow
         content={
