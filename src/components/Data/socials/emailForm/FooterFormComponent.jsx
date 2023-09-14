@@ -31,7 +31,7 @@ const FooterFormComponent = () => {
     <>
       <Button
         onPress={onOpen}
-        className="flex items-center justify-center hover:bg-blue1000/10 dark:hover:bg-blue100/10 bg-blue100 dark:bg-blue1000"
+        className="flex items-center justify-center lg:hover:bg-blue1000/10 dark:lg:hover:bg-blue100/10 bg-blue100 dark:bg-blue1000"
       >
         <FiMail className="text-xl lg:text-9xl cursor-pointer" />
       </Button>

@@ -19,6 +19,9 @@ const ContainerProyects = () => {
       }
       date={"Aug. 2023"}
       fecha={"Ago. 2023"}
+      frontCode={'https://github.com/RodrigoSpano/pig_commander_client'}
+      backCode={'https://github.com/RodrigoSpano/pig_Commander_api'}
+      deploy={'https://pig-commander-client-beta.vercel.app/'}
     />,
 
     <ProyectsComponent
@@ -33,6 +36,7 @@ const ContainerProyects = () => {
       }
       date={"Jul. 2023"}
       fecha={"Jul. 2023"}
+      code={'https://github.com/MatiasCancina/SoyHenry_PI-Dogs'}
     />,
   ];
 
@@ -55,13 +59,13 @@ const ContainerProyects = () => {
   return (
     <div className="flex items-center justify-center bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 row-span-4 p-6">
       <IoIosArrowBack
-        className="hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
+        className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
         onClick={onClickPrev}
       />
       {proyect[position]}
       <IoIosArrowForward
         onClick={onClickNext}
-        className="hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
+        className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
       />
     </div>
   );

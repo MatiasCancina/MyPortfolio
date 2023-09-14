@@ -27,6 +27,7 @@ module.exports = {
       blue800: "#01497C",
       blue900: "#013A63",
       blue1000: "#012A4A",
+      blueNextUi: "#0070F0",
       gray100: "#f8f7ff",
       black: "#212529",
     },
