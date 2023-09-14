@@ -33,7 +33,7 @@ const ProyectsComponent = ({
   return (
     <Card
       isBlurred
-      className="border-none bg-background/60 dark:bg-blue-900 max-w-[785px]"
+      className="border-none bg-blue200/70 dark:bg-blue-900 max-w-[785px]"
       shadow="lg"
     >
       <CardBody>
