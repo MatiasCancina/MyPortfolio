@@ -12,16 +12,16 @@ const ContainerProyects = () => {
       tecnologies={["NextJS", "Tailwind", "Redux", "PostgreSQL", "Express"]}
       image={pigCphoto}
       description={
-        "Development of a personal finance application that allows users to record their monthly income and expenses, automate expenses, record investments, set savings goals, view news and much more. In particular, my responsibilities included implementing user authentication and authorization, as well as automating and managing transactions and global state."
+        "A personal financial management application that enables users to record their monthly income and expenses, streamline expenditures, log investments, set savings goals, check updates, and much more. In my specific role, I was responsible for handling transactions on the front-end, including their arrangements, expense chart, and page translation. Thanks to my contribution, the application boasts cutting-edge features and a significant improvement in user experience."
       }
       descripcion={
-        "Desarrollo de una aplicación de finanzas personales que permite a los usuarios registrar sus ingresos y gastos mensuales, automatizar gastos, registrar inversiones, establecer metas de ahorro, ver noticias y mucho más. En particular, mis responsabilidades incluyeron la implementación de autenticación y autorización de usuarios, así como la automatización y gestión de transacciones y estado global."
+        "Una aplicación de gestión financiera personal que habilita a los usuarios para anotar sus entradas y salidas mensuales, simplificar gastos, registrar inversiones, definir objetivos de ahorro, consultar novedades y mucho más. En mi papel específico, tuve la responsabilidad de llevar a cabo el manejo de transacciones desde la parte del Front-End junto con sus ordenamientos, el gráfico de gastos y la traducción de la página. Gracias a mi aporte, la aplicación posee atributos vanguardistas y una mejora sustancial en la experiencia de sus usuarios."
       }
       date={"Aug. 2023"}
       fecha={"Ago. 2023"}
-      frontCode={'https://github.com/RodrigoSpano/pig_commander_client'}
-      backCode={'https://github.com/RodrigoSpano/pig_Commander_api'}
-      deploy={'https://pig-commander-client-beta.vercel.app/'}
+      frontCode={"https://github.com/RodrigoSpano/pig_commander_client"}
+      backCode={"https://github.com/RodrigoSpano/pig_Commander_api"}
+      deploy={"https://pig-commander-client-beta.vercel.app/"}
     />,
 
     <ProyectsComponent
@@ -29,14 +29,14 @@ const ContainerProyects = () => {
       tecnologies={["React", "Redux", "Express", "PostgreSQL", "Module CSS"]}
       image={dogsPhoto}
       description={
-        "Development of a complete a Single Page Application SPA for dog management that allows users to manage and keep track of their faithful canine companions in a simple way. This application enables the creation, editing, and deletion of dog profiles, as well as powerful search and filtering capabilities, intuitive sorting options, all while maintaining a global state with Redux."
+        "Design and development of a Dog App. A SPA (Single Page Application) that enables the management of dogs, which are fetched from both the API and the Database, with global states managed using Redux. Dogs can be created, modified, and deleted (CRUD). It also includes features such as search, combined filtering, sorting, and more."
       }
       descripcion={
-        "Desarrollo de una aplicación de página única SPA completa para la gestión de perros que permite a los usuarios administrar y hacer un seguimiento de sus fieles compañeros caninos de manera sencilla. Esta aplicación permite la creación, edición y eliminación de perfiles de perros, así como potentes capacidades de búsqueda y filtrado, opciones intuitivas de ordenamiento, todo ello mientras se mantiene un estado global con Redux."
+        "Diseño y desarrollo de una App de perros. Una SPA (Aplicación de una sola pagina) la cual permite el manejo de perros, los cuales son traídos tanto de la API como de la Base de Datos, con estados globales de Redux. Los perros pueden ser creados, modificados y eliminados (CRUD). Búsqueda, filtrados combinados, ordenamiento, etc."
       }
       date={"Jul. 2023"}
       fecha={"Jul. 2023"}
-      code={'https://github.com/MatiasCancina/SoyHenry_PI-Dogs'}
+      code={"https://github.com/MatiasCancina/SoyHenry_PI-Dogs"}
     />,
   ];
 
