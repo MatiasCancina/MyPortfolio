@@ -30,6 +30,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a
+          className="outline-none"
           href="https://developer.mozilla.org/es/docs/Web/JavaScript"
           target="_blank"
         >
@@ -47,6 +48,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a
+          className="outline-none"
           href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
           target="_blank"
         >
@@ -64,6 +66,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a
+          className="outline-none"
           href="https://developer.mozilla.org/en-US/docs/Web/CSS"
           target="_blank"
         >
@@ -81,6 +84,7 @@ const TechsComponent = () => {
         color="primary"
       >
         <a
+          className="outline-none"
           href="https://legacy.reactjs.org/docs/getting-started.html"
           target="_blank"
         >
@@ -97,7 +101,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://es.redux.js.org/" target="_blank">
+        <a
+          className="outline-none"
+          href="https://es.redux.js.org/"
+          target="_blank"
+        >
           <SiRedux className="lg:hover:text-[#764abc] lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
@@ -111,7 +119,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://nextjs.org/docs" target="_blank">
+        <a
+          className="outline-none"
+          href="https://nextjs.org/docs"
+          target="_blank"
+        >
           <SiNextdotjs className="lg:hover:text-black lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
@@ -125,7 +137,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://v2.tailwindcss.com/docs" target="_blank">
+        <a
+          className="outline-none"
+          href="https://v2.tailwindcss.com/docs"
+          target="_blank"
+        >
           <SiTailwindcss className="lg:hover:text-[#3ebff8] lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
@@ -139,7 +155,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://expressjs.com/es/" target="_blank">
+        <a
+          className="outline-none"
+          href="https://expressjs.com/es/"
+          target="_blank"
+        >
           <SiExpress className="lg:hover:text-[#393939] lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
@@ -153,7 +173,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://nodejs.org/en/docs" target="_blank">
+        <a
+          className="outline-none"
+          href="https://nodejs.org/en/docs"
+          target="_blank"
+        >
           <GrNode className="lg:hover:text-[#75b073] lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
@@ -167,7 +191,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://docs.oracle.com/en/java/" target="_blank">
+        <a
+          className="outline-none"
+          href="https://docs.oracle.com/en/java/"
+          target="_blank"
+        >
           <FaJava className="lg:hover:text-[#5382a1] lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
@@ -181,7 +209,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://www.postgresql.org/docs/" target="_blank">
+        <a
+          className="outline-none"
+          href="https://www.postgresql.org/docs/"
+          target="_blank"
+        >
           <BiLogoPostgresql className="lg:hover:text-[#396c94] lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
@@ -195,7 +227,11 @@ const TechsComponent = () => {
         }
         color="primary"
       >
-        <a href="https://dev.mysql.com/doc/" target="_blank">
+        <a
+          className="outline-none"
+          href="https://dev.mysql.com/doc/"
+          target="_blank"
+        >
           <SiMysql className="lg:hover:text-[#00758F] lg:hover:scale-125 duration-200 text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl cursor-pointer text-gray100" />
         </a>
       </Tooltip>
