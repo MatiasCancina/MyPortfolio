@@ -12,12 +12,12 @@ const SocialsComponent = () => {
         </div>
         <div className="lg:hover:scale-110 duration-150 row-span-1 col-span-1 flex justify-center items-center bg-gradient-to-b from-blue200 to-blue500 dark:from-blue800 dark:to-black  rounded-3xl p-3 lg:p-8">
           <a href="https://www.linkedin.com/in/matiascancina/" target="_blank">
-            <FaLinkedin className="text-xl sm:text-3xl md:text-5xl xl:text-7xl cursor-pointer dark:text-gray100" />
+            <FaLinkedin className="text-xl sm:text-3xl md:text-5xl xl:text-7xl cursor-pointer text-black dark:text-gray100" />
           </a>
         </div>
         <div className="lg:hover:scale-110 duration-150 row-span-1 col-span-1 flex justify-center items-center bg-gradient-to-b from-blue200 to-blue500 dark:from-blue800 dark:to-black  rounded-3xl p-3 lg:p-8">
           <a href="https://github.com/MatiasCancina" target="_blank">
-            <BsGithub className="text-xl sm:text-3xl md:text-5xl xl:text-7xl cursor-pointer dark:text-gray100" />
+            <BsGithub className="text-xl sm:text-3xl md:text-5xl xl:text-7xl cursor-pointer text-black dark:text-gray100" />
           </a>
         </div>
       </div>

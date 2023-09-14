@@ -120,7 +120,7 @@ const ProyectsComponent = ({
             <Modal
               isOpen={isOpen}
               onOpenChange={onOpenChange}
-              className="bg-blue100 dark:bg-blue1000 dark:text-gray100"
+              className="bg-blue100 dark:bg-blue1000 text-black dark:text-gray100"
               size="2xl"
               backdrop="blur"
             >
@@ -128,13 +128,13 @@ const ProyectsComponent = ({
                 {(onClose) => (
                   <>
                     <ModalHeader className="flex justify-center items-center gap-6">
-                      <div className="text-xl">{name}</div>
-                      <div className="text-xs font-light dark:text-gray100">
+                      <div className="text-xl text-black dark:text-gray100">{name}</div>
+                      <div className="text-xs font-light text-black dark:text-gray100">
                         {language === "en" ? date : fecha}
                       </div>
                     </ModalHeader>
                     <ModalBody>
-                      <p className="text-center">
+                      <p className="text-center text-black dark:text-gray100">
                         {language === "en" ? description : descripcion}
                       </p>
                       <div className="flex justify-center items-center">

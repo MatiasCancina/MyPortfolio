@@ -3,10 +3,10 @@ import React from "react";
 const AboutMeComponent = () => {
   return (
     <div className="bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 xl:col-span-3 p-8">
-      <h1 className="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold dark:text-gray100">
+      <h1 className="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-black dark:text-gray100">
         Matías Cancina
       </h1>
-      <p className="font-medium text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
+      <p className="font-medium text-xs sm:text-base xl:text-lg p-1 sm:p-4 text-black dark:text-gray100">
         I am an Argentinian 
         <strong className="mx-1">Full Stack Developer</strong>
         with experience in
