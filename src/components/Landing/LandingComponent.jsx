@@ -17,7 +17,7 @@ const LandingComponent = () => {
             .
           </span>
         </h1>
-        <span className="text-lg sm:text-xl xl:text-2xl 2xl:text-3xl font-black mt-3 sm:mt-4 xl:mt-5 2xl:mt-6 text-blue100 dark:text-blue1000">
+        <span className="text-base sm:text-lg xl:text-xl 2xl:text-2xl font-black mt-3 sm:mt-4 xl:mt-5 2xl:mt-6 text-blue100 dark:text-blue1000">
           Full Stack Developer
         </span>
       </div>
