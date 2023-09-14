@@ -8,7 +8,7 @@ function FooterComponent() {
   const language = useSelector((state) => state.language);
 
   return (
-    <footer className="flex justify-center items-center bg-blue100 dark:bg-blue1000 w-full bg-gray-800 text-white py-6 lg:py-12 px-7 text-center sm:space-x-10 lg:space-x-20 2xl:space-x-40">
+    <footer className="flex justify-center items-center bg-blue100 dark:bg-blue1000 w-full bg-gray-800 text-white py-6 lg:py-12 px-5 text-center sm:space-x-10 lg:space-x-20 2xl:space-x-40">
       {language === "en" ? (
         <div className="flex flex-col sm:flex-row justify-center items-center text-xs md:text-sm lg:text-base font-semibold text-black dark:text-gray100">
           <span>© 2023</span>
