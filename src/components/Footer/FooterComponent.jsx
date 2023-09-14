@@ -8,7 +8,7 @@ function FooterComponent() {
   const language = useSelector((state) => state.language);
 
   return (
-    <footer className="flex justify-center items-center bg-blue100 dark:bg-blue1000 w-full bg-gray-800 text-white py-6 lg:py-12 px-10 text-center sm:space-x-10 lg:space-x-20 2xl:space-x-40">
+    <footer className="flex justify-center items-center bg-blue100 dark:bg-blue1000 w-full bg-gray-800 text-white py-6 lg:py-12 px-7 text-center sm:space-x-10 lg:space-x-20 2xl:space-x-40">
       {language === "en" ? (
         <div className="flex flex-col sm:flex-row justify-center items-center text-xs md:text-sm lg:text-base font-semibold text-black dark:text-gray100">
           <span>© 2023</span>
@@ -16,8 +16,10 @@ function FooterComponent() {
           <span className="sm:mx-1">All rights reserved.</span>
         </div>
       ) : (
-        <div className="text-xs md:text-sm lg:text-base font-semibold text-black dark:text-gray100">
-          © 2023 Matías Cancina. Todos los derechos reservados.
+        <div className="flex flex-col sm:flex-row justify-center items-center text-xs md:text-sm lg:text-base font-semibold text-black dark:text-gray100">
+          <span>© 2023</span>
+          <span className="sm:mx-1">Matías Cancina.</span>
+          <span className="sm:mx-1">Todos los derechos reservados.</span>
         </div>
       )}
       <div className="flex justify-center items-center">
