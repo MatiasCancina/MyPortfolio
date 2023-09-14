@@ -7,18 +7,12 @@ const AboutMeComponent = () => {
         Matías Cancina
       </h1>
       <p className="font-medium text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
-        I am an Argentinian
-        <span className="font-semibold text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
-          Full Stack Developer
-        </span>
+        I am an Argentinian 
+        <strong className="mx-1">Full Stack Developer</strong>
         with experience in
-        <span className="font-semibold text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
-          Front-End
-        </span>
+        <strong className="mx-1">Front-End</strong>
         and
-        <span className="font-semibold text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
-          Back-End
-        </span>
+        <strong className="mx-1">Back-End</strong>
         since 2022. My passion is to create exceptional digital experiences,
         paying attention to every detail. I stand out for staying up to date
         with the latest development trends and tools.
