@@ -80,7 +80,11 @@ const ProyectsComponent = ({
                     color="primary"
                     size="sm"
                   >
-                    <a href={frontCode} target="_blank">
+                    <a
+                      className="outline-none"
+                      href={frontCode}
+                      target="_blank"
+                    >
                       <BsGithub className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
                     </a>
                   </Tooltip>
@@ -96,18 +100,18 @@ const ProyectsComponent = ({
                     color="primary"
                     size="sm"
                   >
-                    <a href={backCode} target="_blank">
+                    <a className="outline-none" href={backCode} target="_blank">
                       <BsGithub className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
                     </a>
                   </Tooltip>
                 )}
                 {code && (
-                  <a href={code} target="_blank">
+                  <a className="outline-none" href={code} target="_blank">
                     <BsGithub className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
                   </a>
                 )}
                 {deploy && (
-                  <a href={deploy} target="_blank">
+                  <a className="outline-none" href={deploy} target="_blank">
                     <FiArrowUpRight className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
                   </a>
                 )}
