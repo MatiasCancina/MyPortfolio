@@ -6,11 +6,22 @@ const AboutMeComponentES = () => {
       <h1 className="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold dark:text-gray100">
         Matías Cancina
       </h1>
-      <p className="flex justify-center items-center font-medium text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
-        Un desarrollador argentino que esta constantemente involucrado en el
-        estudio, aprendiendo nuevas tecnologías y mejorando las que ya conoce,
-        ayudando y/o enseñando con el conocimiento que poseo. Siempre hay algo
-        más por aprender.
+      <p className="font-medium text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
+        Soy un
+        <span className="font-semibold text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
+          Desarrollador Full Stack
+        </span>
+        con experiencia en
+        <span className="font-semibold text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
+          Front-End
+        </span>
+        y
+        <span className="font-semibold text-xs sm:text-base xl:text-lg p-1 sm:p-4 dark:text-gray100">
+          Back-End
+        </span>
+        desde 2022. Mi pasión es crear experiencias digitales excepcionales,
+        cuidando cada detalle. Me destaco por mantenerme al día con las últimas
+        tendencias y herramientas de desarrollo.
       </p>
     </div>
   );
