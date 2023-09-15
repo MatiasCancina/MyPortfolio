@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <link rel="icon" href="./favicon.ico" />
         <title>Matias Cancina | FullStack Dev</title>
       </head>
       <body className={inter.className}>

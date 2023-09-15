@@ -1,6 +1,6 @@
 import React from "react";
-import SwitchTheme from "../switches/SwitchTheme";
-import LanguageSwitcher from "../switches/LanguageSwitcher";
+import SwitchTheme from "./switches/SwitchTheme";
+import LanguageSwitcher from "./switches/LanguageSwitcher";
 import LinkBtn from "./linkBtn.jsx/LinkBtn";
 import { motion } from "framer-motion";
 
@@ -16,8 +16,8 @@ const LandingComponent = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          ease: [0, 0.71, 0.2, 1.01]
-        }} 
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
         className="flex flex-col items-center justify-center text-center 2xl:top-0"
       >
         <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-gray100 dark:text-black">
