@@ -1,6 +1,6 @@
 import ProyectsComponent from "./ProyectsComponent";
-import pigCphoto from "../../../utils/images/dogsPhoto.png";
-import dogsPhoto from "../../../utils/images/pigCphoto.png";
+import dogsPhoto from "../../../utils/images/dogsPhoto.png";
+import pigCphoto from "../../../utils/images/pigCphoto.png";
 
 const proyects = [
   <ProyectsComponent

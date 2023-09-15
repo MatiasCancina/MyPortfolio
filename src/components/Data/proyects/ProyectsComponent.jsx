@@ -85,7 +85,7 @@ const ProyectsComponent = ({
                       href={frontCode}
                       target="_blank"
                     >
-                      <BsGithub className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
+                      <BsGithub className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                     </a>
                   </Tooltip>
                 )}
@@ -101,18 +101,18 @@ const ProyectsComponent = ({
                     size="sm"
                   >
                     <a className="outline-none" href={backCode} target="_blank">
-                      <BsGithub className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
+                      <BsGithub className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                     </a>
                   </Tooltip>
                 )}
                 {code && (
                   <a className="outline-none" href={code} target="_blank">
-                    <BsGithub className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
+                    <BsGithub className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                   </a>
                 )}
                 {deploy && (
                   <a className="outline-none" href={deploy} target="_blank">
-                    <FiArrowUpRight className="text:xl sm:text-2xl cursor-pointer hover:scale-125 duration-200" />
+                    <FiArrowUpRight className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                   </a>
                 )}
               </div>
@@ -171,7 +171,6 @@ const ProyectsComponent = ({
             </Modal>
           </div>
         </div>
-        {/* </div> */}
       </CardBody>
     </Card>
   );
