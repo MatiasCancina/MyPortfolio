@@ -128,7 +128,9 @@ const ProyectsComponent = ({
                 {(onClose) => (
                   <>
                     <ModalHeader className="flex justify-center items-center gap-6">
-                      <div className="text-xl text-black dark:text-gray100">{name}</div>
+                      <div className="text-xl text-black dark:text-gray100">
+                        {name}
+                      </div>
                       <div className="text-xs font-light text-black dark:text-gray100">
                         {language === "en" ? date : fecha}
                       </div>
@@ -158,6 +160,66 @@ const ProyectsComponent = ({
                             {t}
                           </Chip>
                         ))}
+                      </div>
+                      <div className="flex items-center justify-center space-x-2 mt-5">
+                        {frontCode && (
+                          <Tooltip
+                            showArrow
+                            content={
+                              <div className="flex justify-center items-center">
+                                <p>Front</p>
+                              </div>
+                            }
+                            color="primary"
+                            size="sm"
+                          >
+                            <a
+                              className="outline-none"
+                              href={frontCode}
+                              target="_blank"
+                            >
+                              <BsGithub className="text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
+                            </a>
+                          </Tooltip>
+                        )}
+                        {backCode && (
+                          <Tooltip
+                            showArrow
+                            content={
+                              <div className="flex justify-center items-center">
+                                <p>Back</p>
+                              </div>
+                            }
+                            color="primary"
+                            size="sm"
+                          >
+                            <a
+                              className="outline-none"
+                              href={backCode}
+                              target="_blank"
+                            >
+                              <BsGithub className="text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
+                            </a>
+                          </Tooltip>
+                        )}
+                        {code && (
+                          <a
+                            className="outline-none"
+                            href={code}
+                            target="_blank"
+                          >
+                            <BsGithub className="text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
+                          </a>
+                        )}
+                        {deploy && (
+                          <a
+                            className="outline-none"
+                            href={deploy}
+                            target="_blank"
+                          >
+                            <FiArrowUpRight className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
+                          </a>
+                        )}
                       </div>
                     </ModalBody>
                     <ModalFooter>
