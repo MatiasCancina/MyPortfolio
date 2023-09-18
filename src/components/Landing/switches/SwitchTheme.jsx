@@ -3,10 +3,18 @@ import { useTheme } from "next-themes";
 import { Switch } from "@nextui-org/react";
 import { FaSun, FaMoon } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { useDispatch, useSelector } from "react-redux";
 
 const SwitchTheme = () => {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const { theme, setTheme } = useTheme();
+  // const currentTheme = theme === "system" ? systemTheme : theme;
+  // const themeState = useSelector((state) => state.theme.theme);
+  // const dispatch = useDispatch();
+
+  const handleTheme = () => {
+    theme === "dark" ? setTheme("light") : setTheme("dark");
+  }
+
 
   return (
     <motion.div
@@ -21,9 +29,7 @@ const SwitchTheme = () => {
       <Switch
         size="lg"
         color="primary"
-        onClick={() =>
-          currentTheme == "light" ? setTheme("dark") : setTheme("light")
-        }
+        onClick={handleTheme}
         startContent={<FaMoon />}
         endContent={<FaSun />}
       ></Switch>
