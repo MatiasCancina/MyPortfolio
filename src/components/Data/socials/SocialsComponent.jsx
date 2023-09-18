@@ -5,9 +5,9 @@ import FormContainer from "@/components/Data/socials/emailForm/DataFormComponent
 
 const SocialsComponent = () => {
   return (
-    <div className="col-span-1 row-span-1 lg:col-span-2 lg:row-span-2">
+    <div className="col-span-1 my-2 sm:my-0 row-span-1 lg:col-span-2 lg:row-span-2">
       <div className="grid gap-3 lg:gap-6 2xl:gap-9 w-full">
-        <a className="row-span-1 mt-3 lg:mt-0 lg:col-span-2 bg-gradient-to-b from-blue200 to-blue500 dark:from-blue800 dark:to-black rounded-3xl p-3 lg:p-8 lg:hover:scale-105 duration-150 flex justify-center items-center">
+        <a className="row-span-1 lg:mt-0 lg:col-span-2 bg-gradient-to-b from-blue200 to-blue500 dark:from-blue800 dark:to-black rounded-3xl p-3 lg:p-8 lg:hover:scale-105 duration-150 flex justify-center items-center">
           <FormContainer />
         </a>
         <a href="https://www.linkedin.com/in/matiascancina/" target="_blank">
