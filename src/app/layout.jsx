@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <link rel="icon" href="./favicon.ico" />
-        <title>Matias Cancina | FullStack Dev</title>
+        <title>Matias Cancina | PORTFOLIO</title>
       </head>
       <body className={inter.className}>
         <NextUIProvider>
