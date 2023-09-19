@@ -24,13 +24,13 @@ const ContainerProyects = () => {
   return (
     <div className="flex items-center justify-center bg-blue300 dark:bg-blue800 rounded-3xl col-span-4 row-span-4 p-6">
       <IoIosArrowBack
-        className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
+        className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer text-black dark:text-gray100"
         onClick={onClickPrev}
       />
       {proyects[position]}
       <IoIosArrowForward
         onClick={onClickNext}
-        className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer dark:text-gray100"
+        className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer text-black dark:text-gray100"
       />
     </div>
   );
