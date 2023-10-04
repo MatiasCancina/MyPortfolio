@@ -1,6 +1,7 @@
 import ProyectsComponent from "./ProyectsComponent";
 import dogsPhoto from "../../../utils/images/dogsPhoto.png";
 import pigCphoto from "../../../utils/images/pigCphoto.png";
+import toDoPhoto from "../../../utils/images/toDoPhoto.png";
 
 const proyects = [
   <ProyectsComponent
@@ -33,6 +34,21 @@ const proyects = [
     date={"Jul. 2023"}
     fecha={"Jul. 2023"}
     code={"https://github.com/MatiasCancina/SoyHenry_PI-Dogs"}
+  />,
+  <ProyectsComponent
+    name={"To Do List - TS"}
+    tecnologies={["Typescript", "Vite", "Module CSS"]}
+    image={toDoPhoto}
+    description={
+      "Development of a To-Do List with complete CRUD functionality in TypeScript, allowing the addition of new tasks, the ability to modify their titles, and the option to delete them. Additionally, it should include filters by task status (e.g., tasks in progress, completed tasks) and display the count of tasks in progress."
+    }
+    descripcion={
+      "Desarrollo de una lista de tareas con funcionalidad completa de CRUD en TypeScript, que permita la adición de nuevas tareas, la capacidad de modificar sus títulos y la opción de eliminarlas. Además, debería incluir filtros por estado de la tarea (por ejemplo, tareas en progreso, tareas completadas) y mostrar el conteo de tareas en curso."
+    }
+    date={"Oct. 2023"}
+    fecha={"Oct. 2023"}
+    code={"https://github.com/MatiasCancina/ToDo_List-TS"}
+    deploy={""}
   />,
 ];
 
