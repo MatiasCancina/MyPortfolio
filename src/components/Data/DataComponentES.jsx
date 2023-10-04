@@ -3,7 +3,7 @@ import ProfilePhotoComponent from "./profilePhoto/ProfilePhotoComponent";
 import AboutMeComponentES from "./aboutMe/AboutMeComponentES";
 import TechsComponent from "./techs/TechsComponent";
 import SocialsComponent from "./socials/SocialsComponent";
-import ContainerProyects from "./proyects/ContainerProyects";
+import ContainerProyects from "./projects/ContainerProjects";
 
 const DataComponentES = () => {
   return (

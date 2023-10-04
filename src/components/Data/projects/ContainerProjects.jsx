@@ -1,12 +1,13 @@
 "use client";
 import React, { useState } from "react";
-import proyects from "@/components/Data/proyects/proyects";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-const ContainerProyects = () => {
-  let [position, setPosition] = useState(0);
+import projects from "@/components/Data/projects/projects";
+
+const MyCarousel = () => {
+  const [position, setPosition] = useState(0);
 
   const onClickNext = () => {
-    if (position < proyects.length - 1) {
+    if (position < projects.length - 1) {
       setPosition(position + 1);
     } else {
       setPosition(0);
@@ -17,7 +18,7 @@ const ContainerProyects = () => {
     if (position > 0) {
       setPosition(position - 1);
     } else {
-      setPosition(proyects.length - 1);
+      setPosition(projects.length - 1);
     }
   };
 
@@ -27,7 +28,7 @@ const ContainerProyects = () => {
         className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer text-black dark:text-gray100"
         onClick={onClickPrev}
       />
-      {proyects[position]}
+      {projects[position]}
       <IoIosArrowForward
         onClick={onClickNext}
         className="lg:hover:scale-125 duration-100 text-5xl cursor-pointer text-black dark:text-gray100"
@@ -36,4 +37,4 @@ const ContainerProyects = () => {
   );
 };
 
-export default ContainerProyects;
+export default MyCarousel;

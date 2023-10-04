@@ -1,10 +1,10 @@
-import ProyectsComponent from "./ProyectsComponent";
+import ProjectsComponent from "./ProjectsComponent";
 import dogsPhoto from "../../../utils/images/dogsPhoto.png";
 import pigCphoto from "../../../utils/images/pigCphoto.png";
 import toDoPhoto from "../../../utils/images/toDoPhoto.png";
 
-const proyects = [
-  <ProyectsComponent
+const projects = [
+  <ProjectsComponent
     name={"Pig Commander"}
     tecnologies={["NextJS", "Tailwind", "Redux", "PostgreSQL", "Express"]}
     image={pigCphoto}
@@ -21,7 +21,7 @@ const proyects = [
     deploy={"https://pig-commander-client-beta.vercel.app/"}
   />,
 
-  <ProyectsComponent
+  <ProjectsComponent
     name={"Dogs Api"}
     tecnologies={["React", "Redux", "Express", "PostgreSQL", "Module CSS"]}
     image={dogsPhoto}
@@ -35,7 +35,7 @@ const proyects = [
     fecha={"Jul. 2023"}
     code={"https://github.com/MatiasCancina/SoyHenry_PI-Dogs"}
   />,
-  <ProyectsComponent
+  <ProjectsComponent
     name={"To Do List - TS"}
     tecnologies={["Typescript", "Vite", "Module CSS"]}
     image={toDoPhoto}
@@ -52,4 +52,4 @@ const proyects = [
   />,
 ];
 
-export default proyects;
+export default projects;

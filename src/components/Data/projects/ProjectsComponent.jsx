@@ -14,7 +14,7 @@ import {
 import { BsGithub } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 
-const ProyectsComponent = ({
+const ProjectsComponent = ({
   name,
   tecnologies,
   image,
@@ -238,4 +238,4 @@ const ProyectsComponent = ({
   );
 };
 
-export default ProyectsComponent;
+export default ProjectsComponent;
