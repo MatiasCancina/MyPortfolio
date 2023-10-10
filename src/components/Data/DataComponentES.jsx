@@ -4,6 +4,7 @@ import AboutMeComponentES from "./aboutMe/AboutMeComponentES";
 import TechsComponent from "./techs/TechsComponent";
 import SocialsComponent from "./socials/SocialsComponent";
 import ContainerProyects from "./projects/ContainerProjects";
+import CertificatesContainer from "./certificates/CertificatesContainer";
 
 const DataComponentES = () => {
   return (
@@ -16,6 +17,7 @@ const DataComponentES = () => {
       <SocialsComponent />
       <TechsComponent />
       <ContainerProyects />
+      <CertificatesContainer />
     </div>
   );
 };

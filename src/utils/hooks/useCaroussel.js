@@ -1,3 +1,4 @@
+import certificates from "@/components/Data/certificates/certificates";
 import projects from "@/components/Data/projects/projects";
 import { useState } from "react";
 
@@ -19,5 +20,28 @@ export const useCaroussel = () => {
       setPosition(projects.length - 1);
     }
   };
-  return { position, onClickNextProjects, onClickPrevProjects };
+
+  const onClickNextCertificates = () => {
+    if (position < certificates.length - 1) {
+      setPosition(position + 1);
+    } else {
+      setPosition(0);
+    }
+  };
+
+  const onClickPrevCertificates = () => {
+    if (position > 0) {
+      setPosition(position - 1);
+    } else {
+      setPosition(certificates.length - 1);
+    }
+  };
+
+  return {
+    position,
+    onClickNextProjects,
+    onClickPrevProjects,
+    onClickNextCertificates,
+    onClickPrevCertificates,
+  };
 };

@@ -32,7 +32,7 @@ const ProjectsComponent = ({
 
   return (
     <Card
-      isBlurred
+      isblurred
       className="border-none bg-blue100/70 dark:bg-blue-900 max-w-[785px]"
       shadow="lg"
     >
@@ -40,7 +40,7 @@ const ProjectsComponent = ({
         <div className="flex items-center justify-center">
           <div className="w-1/2">
             <Image
-              isBlurred
+              isblurred
               src={image.src}
               alt={name}
               width={650}
@@ -141,7 +141,7 @@ const ProjectsComponent = ({
                       </p>
                       <div className="flex justify-center items-center">
                         <Image
-                          isBlurred
+                          isblurred
                           src={image.src}
                           alt={name}
                           width={450}
