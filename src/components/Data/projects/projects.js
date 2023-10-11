@@ -6,7 +6,7 @@ import toDoPhoto from "../../../utils/images/toDoPhoto.png";
 const projects = [
   <ProjectsComponent
     name={"Pig Commander"}
-    tecnologies={["NextJS", "Tailwind", "Redux", "PostgreSQL", "Express"]}
+    tecnologies={["React", "NextJS", "Tailwind", "Redux Toolkit", "PostgreSQL", "Express"]}
     image={pigCphoto}
     description={
       "A personal financial management application that enables users to record their monthly income and expenses, streamline expenditures, log investments, set savings goals, check updates, and much more. In my specific role, I was responsible for handling transactions on the front-end, including their arrangements, expense chart, and page translation. Thanks to my contribution, the application boasts cutting-edge features and a significant improvement in user experience."
@@ -36,8 +36,8 @@ const projects = [
     code={"https://github.com/MatiasCancina/SoyHenry_PI-Dogs"}
   />,
   <ProjectsComponent
-    name={"To Do List - TS"}
-    tecnologies={["Typescript", "Vite", "Module CSS"]}
+    name={"toDo List"}
+    tecnologies={["Typescript", "React", "Vite", "Tailwind"]}
     image={toDoPhoto}
     description={
       "Development of a To-Do List with complete CRUD functionality in TypeScript, allowing the addition of new tasks, the ability to modify their titles, and the option to delete them. Additionally, it should include filters by task status (e.g., tasks in progress, completed tasks) and display the count of tasks in progress."
@@ -48,7 +48,7 @@ const projects = [
     date={"Oct. 2023"}
     fecha={"Oct. 2023"}
     code={"https://github.com/MatiasCancina/ToDo_List-TS"}
-    deploy={""}
+    deploy={"https://matiascancina-to-do-list.vercel.app/"}
   />,
 ];
 
