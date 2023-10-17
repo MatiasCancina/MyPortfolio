@@ -37,7 +37,7 @@ const projects = [
   />,
   <ProjectsComponent
     name={"toDo List"}
-    tecnologies={["Typescript", "React", "Vite", "Tailwind"]}
+    tecnologies={["Typescript", "React", "Vite"]}
     image={toDoPhoto}
     description={
       "Development of a To-Do List with complete CRUD functionality in TypeScript, allowing the addition of new tasks, the ability to modify their titles, and the option to delete them. Additionally, it should include filters by task status (e.g., tasks in progress, completed tasks) and display the count of tasks in progress."
