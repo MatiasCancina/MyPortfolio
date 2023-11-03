@@ -18,7 +18,7 @@ const projects = [
     fecha={"Ago. 2023"}
     frontCode={"https://github.com/RodrigoSpano/pig_commander_client"}
     backCode={"https://github.com/RodrigoSpano/pig_Commander_api"}
-    deploy={"https://pig-commander-client-beta.vercel.app/"}
+    video={'https://www.youtube.com/watch?v=3msHJjapx7o'}
   />,
 
   <ProjectsComponent

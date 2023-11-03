@@ -11,7 +11,7 @@ import {
   ModalFooter,
   useDisclosure,
 } from "@nextui-org/react";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsYoutube } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const ProjectsComponent = ({
@@ -26,6 +26,7 @@ const ProjectsComponent = ({
   backCode,
   deploy,
   code,
+  video
 }) => {
   const language = useSelector((state) => state.language);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -114,6 +115,22 @@ const ProjectsComponent = ({
                   <a className="outline-none" href={deploy} target="_blank">
                     <FiArrowUpRight className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                   </a>
+                )}
+                {video && (
+                  <Tooltip
+                    showArrow
+                    content={
+                      <div className="flex justify-center items-center">
+                        <p>Demo</p>
+                      </div>
+                    }
+                    color="primary"
+                    size="sm"
+                  >
+                    <a className="outline-none" href={backCode} target="_blank">
+                      <BsYoutube className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
+                    </a>
+                  </Tooltip>
                 )}
               </div>
             </div>
@@ -219,6 +236,22 @@ const ProjectsComponent = ({
                           >
                             <FiArrowUpRight className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                           </a>
+                        )}
+                        {video && (
+                          <Tooltip
+                            showArrow
+                            content={
+                              <div className="flex justify-center items-center">
+                                <p>Demo</p>
+                              </div>
+                            }
+                            color="primary"
+                            size="sm"
+                          >
+                            <a className="outline-none" href={backCode} target="_blank">
+                              <BsYoutube className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
+                            </a>
+                          </Tooltip>
                         )}
                       </div>
                     </ModalBody>
