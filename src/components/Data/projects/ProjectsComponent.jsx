@@ -127,7 +127,7 @@ const ProjectsComponent = ({
                     color="primary"
                     size="sm"
                   >
-                    <a className="outline-none" href={backCode} target="_blank">
+                    <a className="outline-none" href={video} target="_blank">
                       <BsYoutube className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                     </a>
                   </Tooltip>
@@ -248,7 +248,7 @@ const ProjectsComponent = ({
                             color="primary"
                             size="sm"
                           >
-                            <a className="outline-none" href={backCode} target="_blank">
+                            <a className="outline-none" href={video} target="_blank">
                               <BsYoutube className="text:xl sm:text-2xl cursor-pointer lg:hover:scale-125 duration-200" />
                             </a>
                           </Tooltip>
