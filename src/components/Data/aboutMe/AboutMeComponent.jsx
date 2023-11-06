@@ -10,7 +10,10 @@ const AboutMeComponent = () => {
           Matías Cancina
         </h1>
         <Tooltip content={"Download Resume (English)"} color="primary">
-          <a download href="/assets/Matías Cancina's Resume.pdf">
+          <a
+            download href="/assets/Matias Cancina Resume.pdf"
+            className="outline-none"
+          >
             <FiDownload className="text:xl sm:text-2xl text-black dark:text-gray100 cursor-pointer lg:hover:scale-125 duration-200 mx-4" />
           </a>
         </Tooltip>

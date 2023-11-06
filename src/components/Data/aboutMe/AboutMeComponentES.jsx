@@ -10,7 +10,10 @@ const AboutMeComponentES = () => {
           Matías Cancina
         </h1>
         <Tooltip content={"Descargar CV (Español)"} color="primary">
-          <a download href="/assets/CV Matias Cancina.pdf">
+          <a
+            className="outline-none"
+            download href="/assets/CV Matias Cancina.pdf"
+          >
             <FiDownload className="text:xl sm:text-2xl text-black dark:text-gray100 cursor-pointer lg:hover:scale-125 duration-200 mx-4" />
           </a>
         </Tooltip>
