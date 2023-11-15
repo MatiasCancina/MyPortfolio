@@ -56,10 +56,10 @@ const projects = [
     tecnologies={["Typescript", "React", "Vite"]}
     image={digitalClock}
     description={
-      "Development of a multifunctional digital clock that goes beyond merely displaying the time. This innovative device not only provides you with accurate information about hours, minutes, and seconds of the current day but also offers a comprehensive view of the week, indicating the current day along with the other days of the week. Additionally, it displays the complete date, including the current day, month, and year. This project not only showcases my technical skills but also reflects my focus on creating comprehensive and functional solutions."
+      "Development of a multifunctional digital clock that goes beyond merely displaying the time. This innovative device not only provides you with accurate information about hours, minutes, and seconds of the current day but also offers a comprehensive view of the week, indicating the current day along with the other days of the week. Additionally, it displays the complete date, including the current day, month, and year."
     }
     descripcion={
-      "Desarrollo de un reloj digital multifuncional que va más allá de simplemente mostrar la hora. Este innovador dispositivo no solo te brinda la información precisa sobre horas, minutos y segundos del día actual, sino que también te ofrece una visión completa de la semana, indicando el día actual junto con los demás días de la semana. Además, presenta la fecha completa, incluyendo día, mes y año en curso. Este proyecto no solo representa mi habilidad técnica, sino también mi enfoque en la creación de soluciones integrales y funcionales."
+      "Desarrollo de un reloj digital multifuncional que va más allá de simplemente mostrar la hora. Este innovador dispositivo no solo te brinda la información precisa sobre horas, minutos y segundos del día actual, sino que también te ofrece una visión completa de la semana, indicando el día actual junto con los demás días de la semana. Además, presenta la fecha completa, incluyendo día, mes y año en curso."
     }
     date={"Nov. 2023"}
     fecha={"Nov. 2023"}
