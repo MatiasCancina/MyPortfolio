@@ -24,8 +24,8 @@ const CertificatesComponent = ({
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
-    <div>
-      <h2 className="flex justify-center flex-col items-center pb-3 text-black dark:text-gray100 text-xs sm:text-lg md:text-2xl lg:text-3xl sm:font-semibold font-extrabold ">
+    <div className="pb-3 sm:pb-0">
+      <h2 className="flex justify-center flex-col items-center py-1 sm:pt-0 sm:pb-3 text-black dark:text-gray100 text-xs sm:text-lg md:text-2xl lg:text-3xl sm:font-semibold font-extrabold">
         {language === "en" ? "CERTIFICATES" : "CERTIFICADOS"}
       </h2>
       <Card
