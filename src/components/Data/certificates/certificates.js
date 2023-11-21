@@ -1,7 +1,7 @@
 import CertificatesComponent from "./CertificatesComponent";
-import fswDev from '../../../utils/images/diploma_henry.png'
-import diplomaJava from '../../../utils/images/diploma_java.png'
-import diplomaPython from '../../../utils/images/diploma_python.png'
+import fswDev from "../../../utils/images/diploma_henry.png";
+import diplomaJava from "../../../utils/images/diploma_java.png";
+import diplomaPython from "../../../utils/images/diploma_python.png";
 
 const certificates = [
   <CertificatesComponent

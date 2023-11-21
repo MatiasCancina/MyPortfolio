@@ -7,7 +7,14 @@ import digitalClock from "../../../utils/images/clockPhoto.png";
 const projects = [
   <ProjectsComponent
     name={"Pig Commander"}
-    tecnologies={["React", "NextJS", "Tailwind", "Redux Toolkit", "PostgreSQL", "Express"]}
+    tecnologies={[
+      "React",
+      "NextJS",
+      "Tailwind",
+      "Redux Toolkit",
+      "PostgreSQL",
+      "Express",
+    ]}
     image={pigCphoto}
     description={
       "A personal financial management application that enables users to record their monthly income and expenses, streamline expenditures, log investments, set savings goals, check updates, and much more. In my specific role, I was responsible for handling transactions on the front-end, including their arrangements, expense chart, and page translation. Thanks to my contribution, the application boasts cutting-edge features and a significant improvement in user experience."
@@ -19,9 +26,8 @@ const projects = [
     fecha={"Ago. 2023"}
     frontCode={"https://github.com/RodrigoSpano/pig_commander_client"}
     backCode={"https://github.com/RodrigoSpano/pig_Commander_api"}
-    video={'https://www.youtube.com/watch?v=3msHJjapx7o'}
+    video={"https://www.youtube.com/watch?v=3msHJjapx7o"}
   />,
-
   <ProjectsComponent
     name={"Dogs Api"}
     tecnologies={["React", "Redux", "Express", "PostgreSQL", "Module CSS"]}
