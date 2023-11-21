@@ -5,6 +5,7 @@ import TechsComponent from "./techs/TechsComponent";
 import SocialsComponent from "./socials/SocialsComponent";
 import ContainerProyects from "./projects/ContainerProjects";
 import CertificatesContainer from "./certificates/CertificatesContainer";
+import ExperienceContainer from "./experiences/ExperienceContainer";
 
 const DataComponentES = () => {
   return (
@@ -16,6 +17,7 @@ const DataComponentES = () => {
       <AboutMeComponentES />
       <SocialsComponent />
       <TechsComponent />
+      <ExperienceContainer/>
       <ContainerProyects />
       <CertificatesContainer />
     </div>

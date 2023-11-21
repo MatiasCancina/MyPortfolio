@@ -1,9 +1,26 @@
 import certificates from "@/components/Data/certificates/certificates";
 import projects from "@/components/Data/projects/projects";
+import experiences from "@/components/Data/experiences/experiences";
 import { useState } from "react";
 
 export const useCaroussel = () => {
   const [position, setPosition] = useState(0);
+
+  const onClickNextExperiences = () => {
+    if (position < experiences.length - 1) {
+      setPosition(position + 1);
+    } else {
+      setPosition(0);
+    }
+  };
+
+  const onClickPrevExperiences = () => {
+    if (position > 0) {
+      setPosition(position - 1);
+    } else {
+      setPosition(experiences.length - 1);
+    }
+  };
 
   const onClickNextProjects = () => {
     if (position < projects.length - 1) {
@@ -43,5 +60,7 @@ export const useCaroussel = () => {
     onClickPrevProjects,
     onClickNextCertificates,
     onClickPrevCertificates,
+    onClickNextExperiences,
+    onClickPrevExperiences,
   };
 };

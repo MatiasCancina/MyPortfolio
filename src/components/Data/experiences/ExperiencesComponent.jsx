@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Modal,
   ModalBody,
@@ -11,21 +10,22 @@ import { useSelector } from "react-redux";
 import { Card, CardBody, Button } from "@nextui-org/react";
 import Image from "next/image";
 
-const CertificatesComponent = ({
-  name,
-  nombre,
-  academy,
+function ExperiencesComponent({
+  job,
+  bussines,
+  description,
   date,
   fecha,
   image,
-}) => {
+  descripcion,
+}) {
   const language = useSelector((state) => state.language);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
     <div className="pb-3 sm:pb-0">
       <h2 className="flex justify-center flex-col items-center py-1 sm:pt-0 sm:pb-3 text-black dark:text-gray100 text-xs sm:text-lg md:text-2xl lg:text-3xl sm:font-semibold font-extrabold">
-        {language === "en" ? "CERTIFICATES" : "CERTIFICADOS"}
+        {language === "en" ? "EXPERIENCES" : "EXPERIENCIAS"}
       </h2>
       <Card
         isblurred
@@ -38,7 +38,7 @@ const CertificatesComponent = ({
               <Image
                 isblurred
                 src={image.src}
-                alt={name}
+                alt={bussines}
                 width={650}
                 height={200}
                 className="justify-center items-center rounded-lg lg:rounded-2xl"
@@ -48,10 +48,10 @@ const CertificatesComponent = ({
             <div className="flex justify-center items-center w-1/2">
               <div className="flex flex-col items-center justify-center space-y-2 sm:space-y-5 md:space-y-8">
                 <h1 className="flex items-center justify-center text-black dark:text-gray100 text-xs sm:text-lg md:text-xl sm:font-semibold font-bold">
-                  {language === "en" ? name : nombre}
+                  {job}
                 </h1>
                 <h2 className="flex items-center justify-center text-black dark:text-gray100 text-xs sm:text-md md:text-lg sm:font-normal">
-                  {academy}
+                  {bussines}
                 </h2>
                 <Button
                   onPress={onOpen}
@@ -82,21 +82,24 @@ const CertificatesComponent = ({
                     <>
                       <ModalHeader className="flex justify-center items-center gap-6">
                         <div className="text-xl sm:text-4xl text-black dark:text-gray100">
-                          {language === "en" ? name : nombre}
+                          {job}
                         </div>
                         <div className="text-xs font-light text-black dark:text-gray100">
                           {language === "en" ? date : fecha}
                         </div>
                       </ModalHeader>
                       <ModalBody>
-                        <p className="sm:text-xl text-center text-black dark:text-gray100">
-                          {academy}
+                        <p className="sm:text-xl md:text-2xl lg:text-3xl italic text-center text-black dark:text-gray100">
+                          {bussines}
+                        </p>
+                        <p className="text-center text-black dark:text-gray100">
+                          {language === "en" ? description : descripcion}
                         </p>
                         <div className="flex justify-center items-center">
                           <Image
                             isblurred
                             src={image.src}
-                            alt={name}
+                            alt={bussines}
                             width={750}
                             height={100}
                             className="rounded-lg lg:rounded-2xl my-3"
@@ -122,6 +125,6 @@ const CertificatesComponent = ({
       </Card>
     </div>
   );
-};
+}
 
-export default CertificatesComponent;
+export default ExperiencesComponent;
