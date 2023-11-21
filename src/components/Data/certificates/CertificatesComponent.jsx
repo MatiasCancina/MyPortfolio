@@ -25,6 +25,9 @@ const CertificatesComponent = ({
 
   return (
     <div>
+      <h2 className="flex justify-center flex-col items-center pb-3 text-black dark:text-gray100 text-xs sm:text-lg md:text-2xl lg:text-3xl sm:font-semibold font-extrabold ">
+        {language === "en" ? "CERTIFICATES" : "CERTIFICADOS"}
+      </h2>
       <Card
         isblurred
         className="border-none bg-blue100/70 dark:bg-blue-900 max-w-[785px]"
